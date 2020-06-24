@@ -1,0 +1,202 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<link rel="shortcut icon" href="images/favicon.ico">
+<link href="css/estilos_minimal.css" rel="stylesheet" type="text/css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bunglon Diseño Web</title>
+
+<meta name="title" content="Bunglon Diseño Web">
+<meta name="keywords" content="Bunglon, Diseños, Web, html5, Redes, Portal, Mercadeo, Marketing, Community Manager, Pagina, Mailmarketing, programacion">
+<meta name="description" content="Paginas Web totalmente funcionales con una identidad corporativa, una informacion clara y objetiva para una facil y excelente experiencia del usuaro.">
+<meta name="distribution" content="global">
+<meta name="robots" content="index, follow">
+<meta name="revisit-after" content="30 days">
+<meta name="classification" content="Diseño Web, Programacion, manejo de redes">
+<meta http-equiv="content-languaje" content="es">
+<meta name="googlebot" content="index, follow">
+<meta http-equiv="pragma" content="no-cache">
+
+<script type="text/javascript">
+//<![CDATA[
+var gal = {
+init : function() {
+if (!document.getElementById || !document.createElement || !document.appendChild) return false;
+if (document.getElementById('gallery')) document.getElementById('gallery').id = 'jgal';
+var li = document.getElementById('jgal').getElementsByTagName('li');
+li[0].className = 'active';
+for (i=0; i<li.length; i++) {
+li[i].style.backgroundImage = 'url(' + li[i].getElementsByTagName('img')[0].src + ')';
+li[i].title = li[i].getElementsByTagName('img')[0].alt;
+gal.addEvent(li[i],'click',function() {
+var im = document.getElementById('jgal').getElementsByTagName('li');
+for (j=0; j<im.length; j++) {
+im[j].className = '';
+}
+this.className = 'active';
+});
+}
+},
+addEvent : function(obj, type, fn) {
+if (obj.addEventListener) {
+obj.addEventListener(type, fn, false);
+}
+else if (obj.attachEvent) {
+obj["e"+type+fn] = fn;
+obj[type+fn] = function() { obj["e"+type+fn]( window.event ); }
+obj.attachEvent("on"+type, obj[type+fn]);
+}
+}
+}
+gal.addEvent(window,'load', function() {
+gal.init();
+});
+//]]>
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-61432140-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!-- 
+Para obtener más información sobre los comentarios condicionales situados alrededor de las etiquetas html en la parte superior del archivo:
+paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+  
+Haga lo siguiente si usa su compilación personalizada de modernizr (http://www.modernizr.com/):
+* inserte el vínculo del código js aquí
+* elimine el vínculo situado debajo para html5shiv
+* añada la clase "no-js" a las etiquetas html en la parte superior
+* también puede eliminar el vínculo con respond.min.js si ha incluido MQ Polyfill en su compilación de modernizr 
+-->
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="respond.min.js"></script>
+</head>
+<body>
+<div class="gridContainer clearfix">
+<header>
+   
+   
+
+  
+  <a href="index.html"><div id="botoninicio">
+  </div></a>
+   <div id="linea">
+    </div>
+<menu2>
+
+
+
+<ul><li>
+<a href="index.html"><div id="nosotros"></div></a>
+</li>
+
+<li>
+<a href="servicios.html"><div id="servicios"></div></a>
+</li>
+
+
+<li>
+<a href="contact.php"><div id="contacto"></div></a>
+</li></ul>
+</menu2>
+  
+   
+
+</header>
+ <menu>
+
+<ul><li>
+ <a href="index.html"> <div id="nosotros"></div></a>
+</li>
+
+<li>
+<a href="servicios.html"><div id="servicios"></div></a>
+</li>
+
+
+<li>
+<a href="contact.php"><div id="contacto"></div></a>
+</li></ul>
+</menu>
+
+ <div id="deco5"><img src="images/deco5.png"></div>
+<div id="conte">
+
+<div style="position:relative;">
+<ul id="gallery">
+<li><img src="images/minimal.jpg" alt="" /></li>
+<li><img src="images/minimal2.jpg" alt="" /></li>
+<li><img src="images/minimal3.jpg" alt="" /></li>
+<li><img src="images/minimal4.jpg" alt="" /></li>
+<li><img src="images/minimal5.jpg" alt="" /></li>
+<li><img src="images/minimal6.jpg" alt="" /></li>
+<li><img src="images/minimal7.jpg" alt="" /></li>
+<li><img src="images/minimal8.jpg" alt="" /></li>
+<li><img src="images/minimal9.jpg" alt="" /></li>
+<li><img src="images/minimal10.jpg" alt="" /></li>
+</ul>
+</div>
+ 
+  </div>
+ 
+  
+</div>
+
+<div id="conte2">
+  <div id="deco1"><img src="images/deco7.png">
+  </div>
+  <div id="deco2"><img src="images/rama2.png">
+  </div>
+  
+  <div id="texto2">
+ <h2>Página Web</h2>
+La página web de una empresa es un tema de crucial importancia estratégica para los negocios. Es necesario que transmita una imagen profesional para no generar desconfianza en el cliente, con información clara y actualizada de nuestros productos y servicios, fundamentalmente que nos permita el contacto y comunicación con nuestros clientes actuales y potenciales.  <br><br>
+Algo muy importante, es que cada día millones de personas utilizan sus dispositivos móviles para conectarse a internet, es por eso la importancia que tu web sea adaptable a estos tipos de dispositivos.
+
+ 
+</div>
+</div>
+ 
+  <div id="porta1">
+  <img src="images/red.png">
+  </div>
+  </div>
+  
+  
+    <div id="deco3"><img src="images/rama1.png"></div>
+   <div id="deco2"><img src="images/rama2.png"> 
+  </div>
+ 
+
+
+
+<footer>
+  
+
+  <div id="redes"> <a href="https://www.facebook.com/profile.php?id=197940637040073&ref=ts&fref=ts"><img src="images/facebook.png"></a>
+  </div>
+  <div id="redes2"> <a href="http://instagram.com/bunglonpublicidad"><img src="images/instagram2.png"></a>
+  </div>
+  <div id="redes3"><a href="https://twitter.com/BunglonCali"><img src="images/ecMK8B8bi.png"></a>
+  </div>
+</footer>
+  
+</div>
+  </div>
+  
+</body>
+</html>
